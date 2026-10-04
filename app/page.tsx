@@ -15,16 +15,9 @@ import Footer from '@/src/components/Footer/Footer';
 export default function HomePage() {
   return (
     <main className="relative bg-black overflow-hidden">
-      {/* Particle background */}
       <ParticleBackground />
-
-      {/* Custom cursor */}
       <CustomCursor />
-
-      {/* Navigation */}
       <Navbar />
-
-      {/* Sections */}
       <Hero />
       <About />
       <Skills />
