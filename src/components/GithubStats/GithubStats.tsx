@@ -9,19 +9,32 @@ export default function GithubStats() {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-bold mb-12 text-center"
+          className="text-4xl md:text-5xl font-bold mb-4 text-center"
         >
           <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-            GitHub Activity
+            GitHub
           </span>
         </motion.h2>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          className="p-8 rounded-lg bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-cyan-500/20 text-center"
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          className="text-center text-gray-400 text-lg mb-10"
         >
-          <p className="text-gray-400">GitHub stats integration coming soon...</p>
+          Explore my code, projects, and open-source work.
+        </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          className="flex justify-center"
+        >
+          <a
+            href="https://github.com/IKSHITSINHA77"
+            target="_blank"
+            rel="noreferrer"
+            className="px-7 py-3 rounded-lg border border-cyan-400/50 text-cyan-300 hover:bg-cyan-400/10 transition"
+          >
+            Visit GitHub Profile →
+          </a>
         </motion.div>
       </div>
     </section>
