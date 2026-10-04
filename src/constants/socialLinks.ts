@@ -1,6 +1,5 @@
 export const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com/ikshitsinha', icon: 'Github' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/ikshit-sinha', icon: 'Linkedin' },
+  { name: 'GitHub', url: 'https://github.com/IKSHITSINHA77', icon: 'Github' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/in/ikshit-sinha-a76883288/', icon: 'Linkedin' },
   { name: 'Email', url: 'mailto:ikshitsinha77@email.com', icon: 'Mail' },
-  { name: 'DevPost', url: 'https://devpost.com/ikshitsinha', icon: 'Code' },
 ];
